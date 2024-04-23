@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #16161a; /* Background */
+    color: #fffffe; /* Main */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styles pour le titre */
+.title {
+    background-color: #16161a; /* Background */
+    padding: 10px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    border-radius: 100%;
+    width: 3%;
+    position: fixed; /* Position fixe par rapport à la fenêtre du navigateur */
+    top: 10px; /* Distance de 10 pixels depuis le haut */
+    left: 10px; /* Distance de 10 pixels depuis la gauche */
+    z-index: 9999; /* Pour s'assurer que l'image soit au-dessus des autres éléments */
+}
+
+
+.title h1 {
+    margin-top: 0px;
+    margin-bottom: 0;
+    justify-content: center;
+    color: #7f5af0; /* Headline */
+}
+
+.title p {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0;
+    justify-content: center;
+    color: #94a1b2; /* Paragraph */
+}
+
+/* Styles pour le contenu principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+/* Styles pour les cartes */
+.card {
+    background-color: rgba(127, 90, 240, 0.1); /* Background */
+    color: #fffffe; /* Main */
+    padding: 10px;
+    border-radius: 20px;
+    flex: 1;
+    margin: 0 30px;
+    justify-content: center;
+}
+
+/* Styles pour les boutons */
+.buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #7f5af0; /* Button */
+    color: #fffffe; /* Button text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #7f5af0; /* Highlight */
+}
+
+/* Styles pour les informations */
+.info {
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 20px;
+    background-color: rgba(127, 90, 240, 0.1);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #94a1b2; /* Paragraph */
+}
+
+/* Styles pour le canevas */
+#canvas {
+    background-color: #010101; /* Illustration Stroke */
+    border: 1px solid #fffffe; /* Main */
+    margin: 20px 0;
+}
+
+#canvas:hover {
+    cursor: grabbing;
+}

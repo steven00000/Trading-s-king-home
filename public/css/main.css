@@ -10,6 +10,21 @@ body {
     height: 100vh;
 }
 
+.advert {
+    color: red;
+    font-weight: 10;
+    font-size: 100%;
+    margin-bottom: 0px;
+}
+
+.advert-subtittle{
+    color: red;
+    font-weight: 10;
+    font-size: 90%;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
 /* Styles pour le titre */
 .title {
     background-color: #16161a; /* Background */

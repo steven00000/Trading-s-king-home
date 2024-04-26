@@ -128,3 +128,16 @@ body {
 #canvas:hover {
     cursor: grabbing;
 }
+
+/* Styles pour les informations du joueur */
+.player-info {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#user-name {
+    margin-left: 10px;
+}

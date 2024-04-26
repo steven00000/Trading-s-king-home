@@ -16,5 +16,10 @@ fetch('https://discord.com/api/users/@me', {
     const { username, discriminator, avatar, id } = response;
 
     // injection html du pseudo de l'user
-    document.getElementById('name').innerText = `${username}`;
+    document.getElementById('user-name').innerText = `${username}`;
+
+    // injection de l'avatar de l'user
+    const userAvatar = document.getElementById('user-avatar');
+    userAvatar.src = `https://cdn.discordapp.com/avatars/${id}/${avatar}.png`;
+    userAvatar.alt = 'Avatar';
 });
